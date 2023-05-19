@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source: 
-    repoURL: https://gitlab.com/andrew.kaczynski/gitops-webapp.git
+    repoURL: https://github.com/gezish/gitops-argocd.git
     targetRevision: HEAD
     path: deployment/dev
   destination:
@@ -24,7 +24,7 @@ metadata:
 spec:
   project: default
   source: 
-    repoURL: https://gitlab.com/andrew.kaczynski/gitops-webapp.git
+    repoURL: https://github.com/gezish/gitops-argocd.git
     targetRevision: HEAD
     path: deployment/prod
   destination:
